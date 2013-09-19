@@ -1,11 +1,12 @@
-<h1>Listing tweets</h1>
+<%= image_tag("twitter.png", :alt => "TwitterImage", :class=>"Img") %>
 
-<table>
+<h1>Listing tweets...</h1>
+
+<table class="MsgTable">
   <thead>
     <tr>
       <th>Body</th>
       <th>Stars</th>
-      <th></th>
       <th></th>
       <th></th>
     </tr>
@@ -14,9 +15,8 @@
   <tbody>
     <% @tweets.each do |tweet| %>
       <tr>
-        <td><%= tweet.body %></td>
-        <td><%= tweet.stars %></td>
-        <td><%= link_to 'Show', tweet %></td>
+        <td><%= link_to tweet.body, tweet %></td>
+        <td class="tdCenter"><%= tweet.stars %></td>
         <td><%= link_to 'Edit', edit_tweet_path(tweet) %></td>
         <td><%= link_to 'Destroy', tweet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>

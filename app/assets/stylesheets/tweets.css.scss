@@ -1,3 +1,38 @@
 // Place all the styles related to the tweets controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.Img
+{
+	width:13%;
+	float:left;
+	margin-right:30px;	
+}
+
+table.MsgTable
+{
+	margin-top:50px;
+	border: 2px solid #33ADFF;
+
+}
+
+table.MsgTable th
+{
+	padding: 8px;
+	background-color: #33ADFF;
+	text-align:center;
+}
+
+table.MsgTable td
+{
+	padding: 1px 30px 1px 1px;
+	background-color: #ffffff;
+}
+
+.tdCenter
+{
+	text-align:center;
+	//margin-left:15px;
+	//padding-left:20px;
+	text-weight:bold;
+}
