@@ -4,33 +4,44 @@
 
 .Img
 {
-	width:13%;
+	width:25%;
 	float:left;
 	margin-right:30px;	
 }
 
-table.MsgTable
+.MsgTable
 {
 	margin-top:40px;
 	border: 2px solid #33ADFF;
-	border-collapse: collapse;
+	//border-collapse: collapse;
 }
 
-table.MsgTable th
+.MsgTable th
 {
-	padding: 1px 10px 1px 10px;
+	padding: 5px;
+	text-align:center;
 	background-color: #33ADFF;
 }
 
-table.MsgTable td
+.MsgTable td
 {
-	padding: 3px 3px 3px 3px;
 	background-color: #ffffff;
-	padding-right: 20px;
 }
 
-.tdCenter
+.tableLongTxt
+{
+	text-align:left;
+	padding: 0px 20px 0px 2px;
+	float:left;
+}
+
+.tableShortTxt
 {
 	text-align:center;
-	//margin-left:15px;
+}
+
+.tableLinkBtn
+{
+	text-align:center;
+	padding: 0px 10px 0px 10px;
 }
